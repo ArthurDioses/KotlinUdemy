@@ -58,7 +58,7 @@ fun main(args: Array<String>) {
 
     println(scores[1])
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     //Convertir variables
 
     var i = 9
@@ -70,4 +70,27 @@ fun main(args: Array<String>) {
     println(x)
 
     println(epicString)
+}*/
+fun main(args: Array<String>) {
+    var num1 = 55
+    var num2 = 23
+
+    //------------------------
+    //ARITHMETIC OPERATORS
+    //Addition Operator
+    println(num1 + num2)
+
+    //Subtraction Operator
+    println(num1 - num2)
+
+    //Multiplication Operator
+    println(num1 * num2)
+
+    //Division Operator
+    println(num1 / num2)
+    println(num1.toFloat() / num2.toFloat())
+
+    //Modulus Operator
+    println(num1 % num2)
+
 }
