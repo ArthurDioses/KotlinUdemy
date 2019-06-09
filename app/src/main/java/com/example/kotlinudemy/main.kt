@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     println(num1)
     println(num2)
 }*/
-fun main(args:Array<String>) {
+/*fun main(args:Array<String>) {
     var epicString ="Hello World"
 
     println(epicString)
@@ -35,4 +35,26 @@ fun main(args:Array<String>) {
     var result = epicString.plus("Dioses")
 
     println(result)
+}*/
+fun main(args: Array<String>) {
+    //Using Array
+    var i = 8
+    println(i)
+
+    var scores = arrayOf(1, 3, 5, 78, 3)
+
+    var name = arrayOf("Arthur", "Felipe", "Dioses", "Reto", "IronMan", "Thor")
+
+    println(scores[2])
+    println(name[3])
+
+    println(scores.get(2))
+    println(name.get(3))
+
+    scores[1] = 4
+    println(scores[1])
+
+    scores.set(1, 580)
+
+    println(scores[1])
 }
