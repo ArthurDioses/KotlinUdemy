@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
 
     println(result)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     //Using Array
     var i = 8
     println(i)
@@ -57,4 +57,17 @@ fun main(args: Array<String>) {
     scores.set(1, 580)
 
     println(scores[1])
+}*/
+fun main(args: Array<String>) {
+    //Convertir variables 
+
+    var i = 9
+
+    var x :Long = i.toLong()
+
+    var epicString:String = x.toString()
+
+    println(x)
+
+    println(epicString)
 }
