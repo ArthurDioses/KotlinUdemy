@@ -294,7 +294,7 @@ fun main(args: Array<String>) {
     }
     println(result)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var x = 50
 
     when (x) {
@@ -318,4 +318,23 @@ fun main(args: Array<String>) {
                 else -> "Default"
             }
     println(epicVar)
+}*/
+fun main(args: Array<String>) {
+    var epicArray = arrayOf(1, 2, 3, 4, 5, 6)
+
+    //println(epicArray[0])
+    //println(epicArray[1])
+    //println(epicArray[2])
+    //println(epicArray[3])
+    //println(epicArray[4])
+    //println(epicArray[5])
+    for (item in epicArray) {
+        println(item)
+    }
+    for (i in 1..15) {
+        println(i * i)
+    }
+    for (i in 1..17 step 4) {
+        println(i)
+    }
 }
