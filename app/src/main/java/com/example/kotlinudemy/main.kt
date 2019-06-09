@@ -71,7 +71,7 @@ fun main(args: Array<String>) {
 
     println(epicString)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var num1 = 55
     var num2 = 23
 
@@ -93,4 +93,28 @@ fun main(args: Array<String>) {
     //Modulus Operator
     println(num1 % num2)
 
+}*/
+fun main(args: Array<String>) {
+    var num1 = 55
+    var num2 = 23
+    //----------------------------------------
+    //RELATIONAL OPERATORS
+
+    //Equals To
+    println(num1 == num2)
+
+    //Not Equals To
+    println(num1 != num2)
+
+    //Greater Than
+    println(num1 > num2)
+
+    //Less Than
+    println(num1 < num2)
+
+    //Greater Than Or Equal To
+    println(num1 >= num2)
+
+    //Less Than Or Equal To
+    println(num1 <= num2)
 }
