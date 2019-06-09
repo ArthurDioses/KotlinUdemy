@@ -264,7 +264,7 @@ fun main(args: Array<String>) {
     println(data * 2)
 
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var num1 = 90
 
 
@@ -293,4 +293,29 @@ fun main(args: Array<String>) {
         "Default"
     }
     println(result)
+}*/
+fun main(args: Array<String>) {
+    var x = 50
+
+    when (x) {
+        10, 20, 30 -> println("Epic")
+        in 40..49 -> println("40 - 49")
+        50 -> {
+            println("50")
+            println("Everything is awesome")
+        }
+    }
+    //------------------------------------------
+    var epicVar =
+            when (x) {
+                10, 20, 30 -> "10, 20 or 30"
+                in 40..49 -> "40 - 49"
+                50 -> {
+                    println("50")
+                    println("Everything is awesome")
+                    "50"
+                }
+                else -> "Default"
+            }
+    println(epicVar)
 }
