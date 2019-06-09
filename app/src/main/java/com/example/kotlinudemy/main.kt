@@ -232,7 +232,7 @@ fun main(args: Array<String>) {
     // ----------------------------
     println(num1.inv())
 } */
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
 
     var num1 = 50
     var num2 = 45
@@ -249,5 +249,18 @@ fun main(args: Array<String>) {
 
     //NOT Operator
     println(!variable)
+
+}*/
+fun main(args: Array<String>) {
+    print("World")
+    print("Hello")
+    println("Hello")
+    println("Hello")
+
+    //var data = readLine()
+    var data :Int = Integer.valueOf(readLine())
+
+    //println(data)
+    println(data * 2)
 
 }
