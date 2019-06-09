@@ -59,7 +59,7 @@ fun main(args: Array<String>) {
     println(scores[1])
 }*/
 fun main(args: Array<String>) {
-    //Convertir variables 
+    //Convertir variables
 
     var i = 9
 
