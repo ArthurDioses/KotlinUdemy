@@ -94,7 +94,7 @@ fun main(args: Array<String>) {
     println(num1 % num2)
 
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var num1 = 55
     var num2 = 23
     //----------------------------------------
@@ -117,4 +117,38 @@ fun main(args: Array<String>) {
 
     //Less Than Or Equal To
     println(num1 <= num2)
+}*/
+fun main(args: Array<String>) {
+    //BASIC ASSIGNMENT OPERATOR
+    var num1 = 55
+
+    //ASSIGNMENT OPERATORS
+
+    //Addition Assignment Operator
+    num1 += 5 //num1 = num1 + 5
+    println(num1)
+
+    num1 = 55
+
+    //Addition Assignment Operator
+    num1 -= 5 //num1 = num1 - 5
+    println(num1)
+
+    num1 = 55
+
+    //Multiplication Assignment Operator
+    num1 *= 5 // num1 = num1 * 5
+    println(num1)
+
+    num1 = 55
+
+    //Division Assignmetn Operator
+    num1 /= 5 // num1 = num1 / 5
+    println(num1)
+
+    num1 = 57
+
+    //Modulus Assignment Operator
+    num1 %= 5 //num1 = num1 % 5
+    println(num1)
 }
