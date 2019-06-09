@@ -182,7 +182,7 @@ fun main(args: Array<String>) {
 
 
 }*/
-fun main(args: Array<String>) {
+/* fun main(args: Array<String>) {
     //BITWISE OPERATORS
 
     //128  64 32 16 8 4 2 1
@@ -231,4 +231,23 @@ fun main(args: Array<String>) {
     // 0   1  0  0  1 1 1 0 -78
     // ----------------------------
     println(num1.inv())
+} */
+fun main(args: Array<String>) {
+
+    var num1 = 50
+    var num2 = 45
+
+    //UNARY OPERATORS
+
+    //AND (&&) Operator
+    println(num1 > num2 && num1 != 55)
+
+    //ORD (||) Operator
+    println(num1 > num2 || num1 != 55)
+
+    var variable = num1 > num2 || num1 != 55
+
+    //NOT Operator
+    println(!variable)
+
 }
