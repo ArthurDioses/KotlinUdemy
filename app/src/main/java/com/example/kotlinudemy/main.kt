@@ -366,7 +366,7 @@ fun main(args: Array<String>) {
         x++ // x += 1 or x = x + 1
     } while (x <= 10)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var i = 0
 
     loop@ while (i < 5) {
@@ -382,4 +382,17 @@ fun main(args: Array<String>) {
         i++
     }
 
+}*/
+fun main(args: Array<String>) {
+    var number = 100.0f
+    var x = -10.0f
+    while (x < 10.0f) {
+        if (x == 0.0f) {
+            x++
+            continue
+        }
+
+        println(number / x)
+        x++
+    }
 }
