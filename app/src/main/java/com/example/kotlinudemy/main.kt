@@ -350,7 +350,7 @@ fun main(args: Array<String>) {
         println("Never ending loop")
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var x = 100
     println("While Loop")
 
@@ -365,4 +365,21 @@ fun main(args: Array<String>) {
         println(x)
         x++ // x += 1 or x = x + 1
     } while (x <= 10)
+}*/
+fun main(args: Array<String>) {
+    var i = 0
+
+    loop@ while (i < 5) {
+        var x = 0
+        while (x < 10) {
+            if (x == 4) {
+                //break
+                break@loop
+            }
+            println("i is $i and x is $x")
+            x++
+        }
+        i++
+    }
+
 }
