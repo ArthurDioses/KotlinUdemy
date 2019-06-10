@@ -319,7 +319,7 @@ fun main(args: Array<String>) {
             }
     println(epicVar)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var epicArray = arrayOf(1, 2, 3, 4, 5, 6)
 
     //println(epicArray[0])
@@ -336,5 +336,17 @@ fun main(args: Array<String>) {
     }
     for (i in 1..17 step 4) {
         println(i)
+    }
+}*/
+fun main(args: Array<String>) {
+    var x = 0
+    while (x <= 100) {
+        println(x * x)
+        x++ //x+1 or x =x+1
+    }
+
+    //infinite loop
+    while (true) {
+        println("Never ending loop")
     }
 }
