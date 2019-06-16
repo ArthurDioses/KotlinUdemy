@@ -396,11 +396,20 @@ fun main(args: Array<String>) {
         x++
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     EpicFunction()
     EpicFunction()
     EpicFunction()
 }
 fun EpicFunction(){
     println("Epic Hello")
+}*/
+fun main(args: Array<String>) {
+    Addition(4, 5)
+    Addition(5, 13)
+    Addition(3534, 345664)
+}
+fun Addition(num1: Int, num2: Int) {
+
+    println(num1 + num2)
 }
