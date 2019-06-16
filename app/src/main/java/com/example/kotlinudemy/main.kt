@@ -404,7 +404,7 @@ fun main(args: Array<String>) {
 fun EpicFunction(){
     println("Epic Hello")
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     Addition(4, 5)
     Addition(5, 13)
     Addition(3534, 345664)
@@ -412,4 +412,15 @@ fun main(args: Array<String>) {
 fun Addition(num1: Int, num2: Int) {
 
     println(num1 + num2)
+}*/
+fun main(args: Array<String>) {
+    var number = Addition(4, 5)
+    println(number)
+    println(number * number)
+}
+
+fun Addition(num1: Int, num2: Int): Int {
+    val result = num1 + num2
+
+    return result
 }
