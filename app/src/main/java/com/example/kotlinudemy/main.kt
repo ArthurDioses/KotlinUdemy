@@ -383,7 +383,7 @@ fun main(args: Array<String>) {
     }
 
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var number = 100.0f
     var x = -10.0f
     while (x < 10.0f) {
@@ -395,4 +395,12 @@ fun main(args: Array<String>) {
         println(number / x)
         x++
     }
+}*/
+fun main(args: Array<String>) {
+    EpicFunction()
+    EpicFunction()
+    EpicFunction()
+}
+fun EpicFunction(){
+    println("Epic Hello")
 }
