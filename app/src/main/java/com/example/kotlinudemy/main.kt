@@ -435,7 +435,7 @@ fun CountUp(startingNumber: Int, number: Int) {
         CountUp(nextNumber, number)
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     Add(5)
     Add()
 
@@ -449,4 +449,13 @@ fun Add(num1: Int = 1, num2: Int = 1) {
 
 fun EpicFuntion(letter: Char = 'a', number: Int = 9) {
     println("$letter and $number")
+}*/
+fun main(args: Array<String>) {
+    val lambda: (Int) -> Unit = { s: Int-> println(s)}
+    Multiply(4,5,lambda)
+}
+
+fun Multiply(num1: Int, num2: Int, lambda: (Int) -> Unit) {
+    val result = num1 * num2
+    lambda(result)
 }
