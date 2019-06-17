@@ -545,11 +545,28 @@ fun Convert(strVar: String): Int {
         println("Array sizes do not match")
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     val num1 = 100
     val num2 = 0
 
     try {
+        val result = num1 / num2
+        println(result)
+
+    } catch (error: ArithmeticException) {
+        println(error)
+    } finally {
+        println("Finally ")
+    }
+}*/
+fun main(args: Array<String>) {
+    val num1 = 100
+    val num2 = -20
+
+    try {
+        if(num2<0){
+            throw ArithmeticException("No minus numbers")
+        }
         val result = num1 / num2
         println(result)
 
