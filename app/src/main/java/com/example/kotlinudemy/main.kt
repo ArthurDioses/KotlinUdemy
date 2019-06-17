@@ -479,7 +479,7 @@ inline fun inlineFunc(myFunc: () -> Unit) {
     myFunc()
     println("Code inside this epic inline function")
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     val num1 = 100
     val num2 = 20
 
@@ -492,4 +492,17 @@ fun main(args: Array<String>) {
     println("After the check")
 
 
+}*/
+fun main(args: Array<String>) {
+    var string = Convert("p")
+    println(string)
 }
+
+fun Convert(strVar: String): Int {
+    return try {
+        Integer.parseInt(strVar)
+    } catch (erro: NumberFormatException) {
+        0
+    }
+}
+
