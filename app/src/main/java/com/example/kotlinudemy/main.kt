@@ -424,7 +424,7 @@ fun Addition(num1: Int, num2: Int): Int {
 
     return result
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     CountUp(0, 10)
 }
 
@@ -434,4 +434,19 @@ fun CountUp(startingNumber: Int, number: Int) {
     if (startingNumber < number) {
         CountUp(nextNumber, number)
     }
+}*/
+fun main(args: Array<String>) {
+    Add(5)
+    Add()
+
+    EpicFuntion('i', 65)
+    EpicFuntion(number = 65)
+}
+
+fun Add(num1: Int = 1, num2: Int = 1) {
+    println(num1 + num2)
+}
+
+fun EpicFuntion(letter: Char = 'a', number: Int = 9) {
+    println("$letter and $number")
 }
