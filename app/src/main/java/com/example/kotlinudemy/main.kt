@@ -459,7 +459,7 @@ fun Multiply(num1: Int, num2: Int, lambda: (Int) -> Unit) {
     val result = num1 * num2
     lambda(result)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var fn: (Int, Int) -> Int = { num1, num2 -> num1 * num2 }
     EpicFunction(5, 9, fn)
 }
@@ -468,4 +468,14 @@ fun EpicFunction(num1: Int, num2: Int, fn: (Int, Int) -> Int): Unit {
     var result = fn(num1, num2)
 
     println(result)
+}*/
+fun main(args: Array<String>) {
+    inlineFunc({
+        println("Epic call")
+    })
+}
+
+inline fun inlineFunc(myFunc: () -> Unit) {
+    myFunc()
+    println("Code inside this epic inline function")
 }
