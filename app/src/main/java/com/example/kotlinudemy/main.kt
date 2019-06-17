@@ -529,7 +529,7 @@ fun Convert(strVar: String): Int {
         println(value)
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var array1 = intArrayOf(1, 2, 3, 4, 5, 6, 7, 8)
     var array2 = intArrayOf(1, 0, 5, 0)
 
@@ -543,5 +543,19 @@ fun main(args: Array<String>) {
         }
     } catch (error: ArrayIndexOutOfBoundsException) {
         println("Array sizes do not match")
+    }
+}*/
+fun main(args: Array<String>) {
+    val num1 = 100
+    val num2 = 0
+
+    try {
+        val result = num1 / num2
+        println(result)
+
+    } catch (error: ArithmeticException) {
+        println(error)
+    } finally {
+        println("Finally ")
     }
 }
