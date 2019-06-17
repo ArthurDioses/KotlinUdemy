@@ -469,7 +469,7 @@ fun EpicFunction(num1: Int, num2: Int, fn: (Int, Int) -> Int): Unit {
 
     println(result)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     inlineFunc({
         println("Epic call")
     })
@@ -478,4 +478,18 @@ fun main(args: Array<String>) {
 inline fun inlineFunc(myFunc: () -> Unit) {
     myFunc()
     println("Code inside this epic inline function")
+}*/
+fun main(args: Array<String>) {
+    val num1 = 100
+    val num2 = 20
+
+    try {
+        val result = num1 / num2
+        println(result)
+    } catch (error: ArithmeticException) {
+        println(error)
+    }
+    println("After the check")
+
+
 }
