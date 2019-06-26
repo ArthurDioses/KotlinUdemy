@@ -576,11 +576,24 @@ fun Convert(strVar: String): Int {
         println("Finally ")
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var epicVar: Int?
     epicVar = null
     if (epicVar == null) {
         epicVar = 1
+    }
+    println(epicVar)
+}*/
+fun main(args: Array<String>) {
+    var epicVar: Int?
+    epicVar = null
+    epicVar = 9
+
+    if (epicVar != null) {
+        println("Not null")
+    }
+    if (epicVar is Int) {
+        println("Epic variable is an Integer")
     }
     println(epicVar)
 }
