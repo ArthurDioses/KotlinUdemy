@@ -559,7 +559,7 @@ fun Convert(strVar: String): Int {
         println("Finally ")
     }
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     val num1 = 100
     val num2 = -20
 
@@ -575,4 +575,12 @@ fun main(args: Array<String>) {
     } finally {
         println("Finally ")
     }
+}*/
+fun main(args: Array<String>) {
+    var epicVar: Int?
+    epicVar = null
+    if (epicVar == null) {
+        epicVar = 1
+    }
+    println(epicVar)
 }
