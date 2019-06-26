@@ -584,7 +584,7 @@ fun Convert(strVar: String): Int {
     }
     println(epicVar)
 }*/
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     var epicVar: Int?
     epicVar = null
     epicVar = 9
@@ -596,4 +596,9 @@ fun main(args: Array<String>) {
         println("Epic variable is an Integer")
     }
     println(epicVar)
+}*/
+fun main(args:Array<String>) {
+    var epic:Any? = null
+    var string:String? = epic as? String
+    println(string)
 }
